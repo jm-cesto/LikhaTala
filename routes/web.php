@@ -7,7 +7,7 @@ use App\Http\Middleware\AuthAdmin;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-
+<wqe>
 Auth::routes();
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
